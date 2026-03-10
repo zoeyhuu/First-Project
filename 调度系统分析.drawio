@@ -1,9 +1,102 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="Wss6ALdCkFaaH-XwHOxn">
-    <mxGraphModel>
+    <mxGraphModel dx="3083" dy="1988" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-5" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QIJXQ-yAKW29Jxe0ipJB-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;工单池（需求侧）&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;工单信息：&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;静态属性：工单类型（按场景区分）、工单生成位置信息...&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;时效信息：预计到达时间（ETA）、预计派发时间、预计关单时间...&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;......&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="287" x="834" y="852" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-24" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" target="QIJXQ-yAKW29Jxe0ipJB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;运力池（供给侧）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;用户信息：&lt;/div&gt;&lt;div style=&quot;&quot;&gt;静态属性：性别、年龄、地域、位置、负责工单类型...&lt;/div&gt;&lt;div style=&quot;&quot;&gt;动态特征：历史履约记录、常做工单类型...&lt;/div&gt;&lt;div style=&quot;&quot;&gt;技能标签：作业类型、载具类型、修车能力...&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;......&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="287" x="360" y="852" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;履约模式整体架构&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="45" width="265" x="577" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-29" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QIJXQ-yAKW29Jxe0ipJB-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;召回后的工单池&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;得到by用户粒度的匹配工单集&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;此时没有考虑运维的执行时间上限、没有对工单执行顺序进行排序&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="287" x="834" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-14" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QIJXQ-yAKW29Jxe0ipJB-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;需求池（为什么需要运维&amp;amp;给运维用的产品）&lt;/font&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;从场景来分析：&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;1.政府强制要求将车辆挪走（G端调度）&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;2.早晚高峰将车辆调至需求量大的点用以营收（拉单调度）&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;3.车辆被停放至偏僻的地方或其他原因导致3天以上未生成骑行订单（没人骑）（找沉默车工单）&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;4.系统发现车辆坏了需要维修（维保工单）&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;5.用户上报车辆异常，需要维修（问题车找车工单）&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;6.一大批新车需要出库（出库投放）&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;......&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="206" width="435" x="760" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="以工单为媒介，通过生成收车与投车工单，派发给运维，运维履约，来实现业务运营管理" vertex="1">
+          <mxGeometry height="30" width="476" x="739.5" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-21" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="QIJXQ-yAKW29Jxe0ipJB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;生成工单&lt;/font&gt;&lt;div&gt;&lt;font&gt;工单生在哪里？收车单生在需求少的点位，投车单生在需求多的点位&lt;/font&gt;&lt;/div&gt;&lt;div&gt;生单颗粒度（是否指定车辆id）？点位单/到车单&lt;br&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="295" width="435" x="760" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-17" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QIJXQ-yAKW29Jxe0ipJB-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;召回层&lt;/font&gt;&lt;div&gt;召回需求量小/满足其他特定规则的点位&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="241" x="1282" y="466" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-19" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QIJXQ-yAKW29Jxe0ipJB-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;过滤层&lt;/font&gt;&lt;div&gt;过滤禁收点/其他特定条件的点位&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="241" x="1282" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;按照特定规则生单&lt;/span&gt;" vertex="1">
+          <mxGeometry height="64" width="241" x="1282" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-22" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;fillColor=none;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;B端履约调度产品的最优化目标永远是营利，利润最大&lt;div&gt;在派单预测的时候，考核的最优化目标就是R-I最高，其中R值与I值都是预测的&lt;/div&gt;&lt;div&gt;todo：R-I口径（目前的R-I与谁来做没有关系，只与工单类型、车辆类型、预估的收投距离等有关），R与I各自的预测逻辑&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;约束条件（其实目前用户体验的指标并未纳入视野范围内）：&lt;/div&gt;&lt;div&gt;用户体验相关的指标：人-单距离&lt;/div&gt;&lt;div&gt;用户的工单执行上限：时间背包&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="164" width="409" x="229" y="1105" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-25" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="739.5" y="1028" as="sourcePoint" />
+            <mxPoint x="739.5" y="921" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="最终目的：找到最优的人-单匹配关系" vertex="1">
+          <mxGeometry height="60" width="234" x="621" y="1028" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;召回层&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;by运维粒度召回满足特定规则的工单&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;目的：召回运维当前能力下能做的所有工单&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.能力规则：工单类型与运维作业类型、载具类型等相匹配，保证运维有能力做这个工单&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2.位置规则：保证运维在熟悉的活动区域作业&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3.&lt;b&gt;去重规则&lt;/b&gt;：保证一个工单只派发给一个人（产品优化点）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="135" width="323" x="1149" y="1007" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-35" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QIJXQ-yAKW29Jxe0ipJB-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;排序后的工单池&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;得到by用户粒度的匹配工单集及执行顺序&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="138" width="287" x="834" y="1462" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;排序层&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;by运维粒度规划其工单执行顺序&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;目的：对运维的可做工单集进行执行顺序排序&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.R-I规则：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;by工单粒度进行工单R-I排序，高R-I工单优先派发；保证高收益工单先做&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2.时效规则：保证派发给运维的工单不超过其的工作上限&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="310" x="1149" y="1293" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-32" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;派单系统追踪的核心指标&lt;/font&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;运维出勤率=运维出勤人数/排班人数&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;系统派发干预占比=系统派发干预量/全量干预量；其中干预量为完成工单的车辆数&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;去重工单完成率=完成工单数/去重的生成工单数；by日看实际生成需求的完成情况，不关注是否被及时完成&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;系统派发工单成功率（入池到派成）=派发成功的入池工单量/进入系统派发池的工单量&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;系统派发工单完成率（派成到完成）=完成的需系统派发的工单量/派发成功的入池工单量&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="188" width="482" x="1144" y="799" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;完成后的工单池&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;得到by用户粒度的完成工单集，进行薪资结算与数据回收&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="106" width="248" x="853.5" y="1726" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;执行流程&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;运维执行工单，正常流程结束则正常结算；异常流程设置处理逻辑&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;考察工单完成率（履约率）、干预量等&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="310" x="1149" y="1618" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;投车推荐系统&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="45" width="265" x="2141" y="49" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;沉默车工单包全策略&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="45" width="265" x="779" y="2029" as="geometry" />
+        </mxCell>
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;派单全策略&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="45" width="265" x="2205" y="1937" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
