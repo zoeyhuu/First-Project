@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="1D1p2m5tKJ1hvTI6GNZJ">
-    <mxGraphModel dx="1345" dy="1483" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1441" dy="994" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,11 +44,14 @@
         <mxCell id="jslxXdyVG8zoxbs5eiy4-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;向量检索&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="117" x="255" y="9" as="geometry" />
         </mxCell>
-        <mxCell id="jslxXdyVG8zoxbs5eiy4-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;推荐系统整体架构&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="206" x="1147" y="17" as="geometry" />
+        <mxCell id="jslxXdyVG8zoxbs5eiy4-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;推荐系统整体架构&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="45" width="265" x="1426" y="9" as="geometry" />
+        </mxCell>
+        <mxCell id="jslxXdyVG8zoxbs5eiy4-25" edge="1" parent="1" source="jslxXdyVG8zoxbs5eiy4-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" target="jslxXdyVG8zoxbs5eiy4-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jslxXdyVG8zoxbs5eiy4-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;用户池&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;用户信息：&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;静态属性：性别、年龄、地域、手机型号...&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;动态特征：历史浏览记录、点赞、完播、购买记录...&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;兴趣标签：长期偏好、短期偏好...&lt;/div&gt;&lt;div&gt;......&lt;/div&gt;" vertex="1">
-          <mxGeometry height="1266" width="287" x="869" y="98" as="geometry" />
+          <mxGeometry height="138" width="287" x="869" y="98" as="geometry" />
         </mxCell>
         <mxCell id="jslxXdyVG8zoxbs5eiy4-8" edge="1" parent="1" source="jslxXdyVG8zoxbs5eiy4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jslxXdyVG8zoxbs5eiy4-7" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -60,7 +63,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jslxXdyVG8zoxbs5eiy4-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;召回后的物品池（万级）&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;得到by用户粒度的最匹配物品集&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;物品是杂乱的、没有进行排序&lt;/div&gt;" vertex="1">
-          <mxGeometry height="139" width="309" x="1384" y="335" as="geometry" />
+          <mxGeometry height="139" width="309" x="1383" y="335" as="geometry" />
         </mxCell>
         <mxCell id="jslxXdyVG8zoxbs5eiy4-20" edge="1" parent="1" source="jslxXdyVG8zoxbs5eiy4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jslxXdyVG8zoxbs5eiy4-13">
           <mxGeometry relative="1" as="geometry" />
@@ -72,7 +75,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jslxXdyVG8zoxbs5eiy4-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;粗排后的物品池（千级）&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;得到by用户粒度的最匹配物品集&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;进行了一次较粗颗粒度的排序&lt;/div&gt;" vertex="1">
-          <mxGeometry height="139" width="252" x="1412.5" y="587" as="geometry" />
+          <mxGeometry height="139" width="252" x="1411.5" y="587" as="geometry" />
         </mxCell>
         <mxCell id="jslxXdyVG8zoxbs5eiy4-21" edge="1" parent="1" source="jslxXdyVG8zoxbs5eiy4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jslxXdyVG8zoxbs5eiy4-16">
           <mxGeometry relative="1" as="geometry" />
@@ -97,6 +100,18 @@
         </mxCell>
         <mxCell id="jslxXdyVG8zoxbs5eiy4-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;重排层（从“千”到“百”）&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;追踪指标：最优化目标要兼顾业务规则与用户体验&lt;/div&gt;&lt;div&gt;PM核心发挥空间：&lt;/div&gt;&lt;div&gt;1.打散与多样性：限制同一作者、同一类目的连续出现，防止用户信息茧房与审美疲劳&lt;/div&gt;&lt;div&gt;2.流量扶持：强制在某个位置插入冷启动的新内容或新作者内容，保证生态活力&lt;/div&gt;&lt;div&gt;3.业务插板：比如每刷8个视频，固定插入一条广告&lt;/div&gt;&lt;div&gt;可做功点：通过设定规则实现这些策略，实现全局最优&lt;/div&gt;&lt;div&gt;特定行为应该是指的最优化目标，用户体验/商业转化/生态&lt;/div&gt;" vertex="1">
           <mxGeometry height="173" width="354" x="1793" y="1028" as="geometry" />
+        </mxCell>
+        <mxCell id="jslxXdyVG8zoxbs5eiy4-27" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1242" y="274" as="sourcePoint" />
+            <mxPoint x="1242" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jslxXdyVG8zoxbs5eiy4-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="最终目的：找到二者之间最优的匹配关系" vertex="1">
+          <mxGeometry height="49" width="220" x="1133" y="273" as="geometry" />
+        </mxCell>
+        <mxCell id="jslxXdyVG8zoxbs5eiy4-29" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=none;align=left;verticalAlign=top;" value="&lt;div&gt;在业务与产品发展的不同阶段，追求的最优化目标是不同的&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.产品发展初期（生存问题）：&lt;/div&gt;&lt;div&gt;目的：主要是为了吸引用户（用户双重身份：创作者/体验者）使用产品并留存下来&lt;/div&gt;&lt;div&gt;对于推荐系统追求的指标：主要考虑用户体验侧以及生态侧的指标。&lt;/div&gt;&lt;div&gt;用户体验侧：推荐点击率（比如说，双列形态下，一次推荐给一个用户一个打包好的笔记包，用户点击这个包里一条笔记就算做一次有效推荐）、阅读篇数、阅读时长、次日留存率&lt;/div&gt;&lt;div&gt;生态指标：长尾内容分发占比（不能只推爆款内容，会打击创作者热情）、新内容破冷率&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.产品发展后期（盈利问题）：&lt;/div&gt;&lt;div&gt;目的：要开始商业化，要考虑流量变现问题&lt;/div&gt;&lt;div&gt;对于推荐系统追求的指标：除了已经解好的用户体验侧以及生态侧的指标问题以外，要解好商业/转化指标的问题；找到这二者之间的平衡。&lt;/div&gt;&lt;div&gt;商业/转化指标：转化率CVR、GMV、广告消耗金额&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Summary：推荐系统始终在解一个多目标优化问题，最优化目标中各指标设置的权重不同，推荐的侧重点就不同，最终对用户的体验感知/业务的商业变现所实现效果也不同，策略PM的作用就是通过用户行为/商业数据找到用户体验与商业变现之间的平衡点，&lt;b&gt;在保证用户体验的前提下，最大化收益（我觉得这是一个比较好的最终的产品形态，也就是说以收益为最优化目标，以用户体验指标作为约束条件）。&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="378" width="482" x="840" y="335" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
