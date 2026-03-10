@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="1D1p2m5tKJ1hvTI6GNZJ">
+    <mxGraphModel dx="894" dy="698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-tgml7biIaxV2QGRdLRP-3" edge="1" parent="1" source="-tgml7biIaxV2QGRdLRP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-tgml7biIaxV2QGRdLRP-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-tgml7biIaxV2QGRdLRP-4" connectable="0" parent="-tgml7biIaxV2QGRdLRP-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="映射" vertex="1">
+          <mxGeometry relative="1" x="-0.025" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tgml7biIaxV2QGRdLRP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;用户特征&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;静态特征：年龄、性别、地域、手机型号...&lt;/div&gt;&lt;div&gt;动态特征：历史点击、点赞、完播、购买记录...&lt;/div&gt;&lt;div style=&quot;&quot;&gt;兴趣标签：长期偏好、短期偏好...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="155" width="158" x="89" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="-tgml7biIaxV2QGRdLRP-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=center;" value="用户特征高维向量空间" vertex="1">
+          <mxGeometry height="155" width="158" x="89" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="-tgml7biIaxV2QGRdLRP-5" edge="1" parent="1" source="-tgml7biIaxV2QGRdLRP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-tgml7biIaxV2QGRdLRP-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-tgml7biIaxV2QGRdLRP-6" connectable="0" parent="-tgml7biIaxV2QGRdLRP-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="映射" vertex="1">
+          <mxGeometry relative="1" x="-0.025" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-tgml7biIaxV2QGRdLRP-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=left;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;物品特征&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;内容属性：类别、标签、发布时间、视频时长/商品价格...&lt;/div&gt;&lt;div&gt;统计特征：历史全局点击率（CTR）、转化率（CVR）、分享率、热度趋势&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="155" width="158" x="398" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="-tgml7biIaxV2QGRdLRP-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=center;" value="物品特征高维向量空间" vertex="1">
+          <mxGeometry height="155" width="158" x="398" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="-tgml7biIaxV2QGRdLRP-9" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="308" width="70.5" x="290.25" y="330.75" as="geometry" />
+        </mxCell>
+        <mxCell id="-tgml7biIaxV2QGRdLRP-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;align=center;" value="得到每个用户最匹配的物品集&lt;div&gt;量化“最匹配”的方法：设定相对阈值（前5%）/绝对阈值&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67" width="158" x="247" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="-tgml7biIaxV2QGRdLRP-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="通过计算向量内积" vertex="1">
+          <mxGeometry height="30" width="117" x="267.5" y="459" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
