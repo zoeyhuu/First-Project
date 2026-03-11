@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="Wss6ALdCkFaaH-XwHOxn">
-    <mxGraphModel dx="1040" dy="1078" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="629" dy="791" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,7 +121,7 @@
         <mxCell id="QIJXQ-yAKW29Jxe0ipJB-93" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="QIJXQ-yAKW29Jxe0ipJB-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-94" connectable="0" parent="QIJXQ-yAKW29Jxe0ipJB-93" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="一一映射" vertex="1">
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-94" connectable="0" parent="QIJXQ-yAKW29Jxe0ipJB-93" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;波次类型可对应n个作业大类&lt;br&gt;但不同波次类型对应的作业大类不能重复&lt;br&gt;即，波次类型与【作业大类集】为一一映射&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0888" y="-2" as="geometry">
             <mxPoint x="1" y="-9" as="offset" />
           </mxGeometry>
