@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="Wss6ALdCkFaaH-XwHOxn">
-    <mxGraphModel dx="941" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="886" dy="744" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,7 +114,7 @@
         <mxCell id="QIJXQ-yAKW29Jxe0ipJB-72" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QIJXQ-yAKW29Jxe0ipJB-71" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="将某运维锁定在此波次类型中，&lt;b&gt;第一层过滤结束&lt;/b&gt;" vertex="1">
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="将某运维锁定在此波次类型中" vertex="1">
           <mxGeometry height="60" width="120" x="2525.25" y="2600" as="geometry" />
         </mxCell>
         <mxCell id="QIJXQ-yAKW29Jxe0ipJB-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="按照映射关系匹配运力" vertex="1">
@@ -126,15 +126,10 @@
         <mxCell id="QIJXQ-yAKW29Jxe0ipJB-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="运力池" vertex="1">
           <mxGeometry height="30" width="60" x="2693.75" y="2413" as="geometry" />
         </mxCell>
-        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-96" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QIJXQ-yAKW29Jxe0ipJB-95" value="">
+        <mxCell id="LurUpZjEQk_-szNWsYb8-26" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LurUpZjEQk_-szNWsYb8-25" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-97" connectable="0" parent="QIJXQ-yAKW29Jxe0ipJB-96" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="发消息给算法" vertex="1">
-          <mxGeometry relative="1" x="-0.0167" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="后续规则集中按照工单类型、作业类型进行第二层过滤匹配" vertex="1">
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="后续按照工单类型与作业类型的映射关系进行人单第一层过滤匹配" vertex="1">
           <mxGeometry height="60" width="120" x="2525.25" y="2713" as="geometry" />
         </mxCell>
         <mxCell id="QIJXQ-yAKW29Jxe0ipJB-92" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="QIJXQ-yAKW29Jxe0ipJB-91">
@@ -148,30 +143,6 @@
         </mxCell>
         <mxCell id="QIJXQ-yAKW29Jxe0ipJB-91" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="按作业大类进行运力排班" vertex="1">
           <mxGeometry height="60" width="120" x="2854.75" y="2458" as="geometry" />
-        </mxCell>
-        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="算法以R-I最高为最优化目标，在时间背包、载具类型与工单类型的匹配关系等约束下，by运维给出执行工单集以及最佳执行路径规划" vertex="1">
-          <mxGeometry height="102" width="154.75" x="2507.88" y="2836" as="geometry" />
-        </mxCell>
-        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-98" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="QIJXQ-yAKW29Jxe0ipJB-99" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="2620" y="2804" as="sourcePoint" />
-            <mxPoint x="2711" y="2804" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-99" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="本次改动：&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;工程侧发消息时需加上：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;运维的：1.载具类型；2.作业类型&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;这两个字段&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="185" x="2789.75" y="2776" as="geometry" />
-        </mxCell>
-        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-100" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="2663" y="2891" as="sourcePoint" />
-            <mxPoint x="2788" y="2891" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;div&gt;现状：&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;算法写死了逻辑：四轮运维只能做调度，不能做找车；但，三轮运维找车/调度均可做&lt;/div&gt;本次改动：&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;算法消费运维的载具类型和作业类型这两个字段，将四轮运维当成三轮运维去计算，从而给四轮运维也派出找车单&lt;/div&gt;" vertex="1">
-          <mxGeometry height="137" width="185" x="2789.75" y="2842" as="geometry" />
-        </mxCell>
-        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="需求点：&lt;div&gt;四轮运维需要做找车单&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="185" x="3010" y="2811" as="geometry" />
         </mxCell>
         <mxCell id="LurUpZjEQk_-szNWsYb8-1" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
@@ -219,8 +190,48 @@
         <mxCell id="LurUpZjEQk_-szNWsYb8-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="作业大类&lt;br&gt;（一个大类中可能同时包含找车工单类型和调度工单类型）" vertex="1">
           <mxGeometry height="60" width="120" x="2663" y="2250.5" as="geometry" />
         </mxCell>
-        <mxCell id="LurUpZjEQk_-szNWsYb8-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据基建" vertex="1">
-          <mxGeometry height="30" width="60" x="2162" y="2199" as="geometry" />
+        <mxCell id="LurUpZjEQk_-szNWsYb8-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="数据基建" vertex="1">
+          <mxGeometry height="30" width="141" x="2162" y="2199" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="数据应用" vertex="1">
+          <mxGeometry height="30" width="141" x="2157" y="2464" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LurUpZjEQk_-szNWsYb8-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2767.12" y="3328" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-18" connectable="0" parent="LurUpZjEQk_-szNWsYb8-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="发消息给算法" vertex="1">
+          <mxGeometry relative="1" x="-0.0167" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="算法以R-I最高为最优化目标，在时间背包、载具类型与工单类型的匹配关系等约束下，by运维给出执行工单集以及最佳执行路径规划" vertex="1">
+          <mxGeometry height="102" width="154.75" x="2690" y="3391" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LurUpZjEQk_-szNWsYb8-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2802.12" y="3359" as="sourcePoint" />
+            <mxPoint x="2893.12" y="3359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="本次改动：&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;工程侧发消息时需加上：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;运维的：1.载具类型；2.作业类型&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;这两个字段&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="185" x="2971.87" y="3331" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2845.12" y="3446" as="sourcePoint" />
+            <mxPoint x="2970.12" y="3446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;div&gt;现状：&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;算法写死了逻辑：四轮运维只能做调度，不能做找车；但，三轮运维找车/调度均可做&lt;/div&gt;本次改动：&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;算法消费运维的载具类型和作业类型这两个字段，将四轮运维当成三轮运维去计算，从而给四轮运维也派出找车单&lt;/div&gt;" vertex="1">
+          <mxGeometry height="137" width="185" x="2971.87" y="3397" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="需求点：&lt;div&gt;四轮运维需要做找车单&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="185" x="3192.12" y="3366" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="后续规则集中按照工单类型与作业类型进行人单第一层过滤匹配" vertex="1">
+          <mxGeometry height="60" width="120" x="2525.25" y="2853" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
