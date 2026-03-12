@@ -194,7 +194,7 @@
           <mxGeometry height="30" width="141" x="2162" y="2199" as="geometry" />
         </mxCell>
         <mxCell id="LurUpZjEQk_-szNWsYb8-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="数据应用" vertex="1">
-          <mxGeometry height="30" width="141" x="2157" y="2464" as="geometry" />
+          <mxGeometry height="30" width="141" x="2157" y="2455" as="geometry" />
         </mxCell>
         <mxCell id="LurUpZjEQk_-szNWsYb8-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LurUpZjEQk_-szNWsYb8-19" value="">
           <mxGeometry relative="1" as="geometry">
@@ -230,8 +230,11 @@
         <mxCell id="LurUpZjEQk_-szNWsYb8-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="需求点：&lt;div&gt;四轮运维需要做找车单&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="185" x="3192.12" y="3366" as="geometry" />
         </mxCell>
-        <mxCell id="LurUpZjEQk_-szNWsYb8-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="后续规则集中按照工单类型与作业类型进行人单第一层过滤匹配" vertex="1">
+        <mxCell id="LurUpZjEQk_-szNWsYb8-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="后续规则集按照工单信息与运力要求进行人单第二层过滤匹配" vertex="1">
           <mxGeometry height="60" width="120" x="2525.25" y="2853" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-27" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" value="工单信息：&lt;div&gt;1. 工单类型（默认不可选）&lt;/div&gt;&lt;div&gt;2. 工单信息因子：&lt;/div&gt;&lt;div&gt;a) 点位标签（仅拉单展示，枚举项：三轮禁停、四轮禁停）&lt;/div&gt;&lt;div&gt;b) 收投距离&lt;/div&gt;&lt;div&gt;运力要求：&lt;/div&gt;&lt;div&gt;1.技能标签（默认展示）&lt;/div&gt;&lt;div&gt;2.作业类型&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="239" x="2204" y="2853" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
