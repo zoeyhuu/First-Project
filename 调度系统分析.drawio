@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="Wss6ALdCkFaaH-XwHOxn">
-    <mxGraphModel dx="886" dy="744" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="748" dy="843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LurUpZjEQk_-szNWsYb8-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="244" width="161" x="2505" y="2690" as="geometry" />
+        </mxCell>
         <mxCell id="QIJXQ-yAKW29Jxe0ipJB-5" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QIJXQ-yAKW29Jxe0ipJB-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -129,7 +132,7 @@
         <mxCell id="LurUpZjEQk_-szNWsYb8-26" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LurUpZjEQk_-szNWsYb8-25" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="后续按照工单类型与作业类型的映射关系进行人单第一层过滤匹配" vertex="1">
+        <mxCell id="QIJXQ-yAKW29Jxe0ipJB-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="按照业务配置的工单类型与作业类型的关系进行人单第一层过滤匹配" vertex="1">
           <mxGeometry height="60" width="120" x="2525.25" y="2713" as="geometry" />
         </mxCell>
         <mxCell id="QIJXQ-yAKW29Jxe0ipJB-92" edge="1" parent="1" source="QIJXQ-yAKW29Jxe0ipJB-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="QIJXQ-yAKW29Jxe0ipJB-91">
@@ -149,7 +152,7 @@
             <mxPoint x="2662.25" y="2148" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LurUpZjEQk_-szNWsYb8-2" connectable="0" parent="LurUpZjEQk_-szNWsYb8-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="映射" vertex="1">
+        <mxCell id="LurUpZjEQk_-szNWsYb8-2" connectable="0" parent="LurUpZjEQk_-szNWsYb8-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="业务配置后形成映射" vertex="1">
           <mxGeometry relative="1" x="-0.0732" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -157,7 +160,7 @@
         <mxCell id="LurUpZjEQk_-szNWsYb8-3" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="LurUpZjEQk_-szNWsYb8-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LurUpZjEQk_-szNWsYb8-4" connectable="0" parent="LurUpZjEQk_-szNWsYb8-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="映射" vertex="1">
+        <mxCell id="LurUpZjEQk_-szNWsYb8-4" connectable="0" parent="LurUpZjEQk_-szNWsYb8-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="业务配置后形成映射" vertex="1">
           <mxGeometry relative="1" x="-0.0774" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -179,7 +182,7 @@
         <mxCell id="LurUpZjEQk_-szNWsYb8-9" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="LurUpZjEQk_-szNWsYb8-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LurUpZjEQk_-szNWsYb8-10" connectable="0" parent="LurUpZjEQk_-szNWsYb8-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="映射" vertex="1">
+        <mxCell id="LurUpZjEQk_-szNWsYb8-10" connectable="0" parent="LurUpZjEQk_-szNWsYb8-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="规则定义映射" vertex="1">
           <mxGeometry relative="1" x="0.045" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -230,11 +233,141 @@
         <mxCell id="LurUpZjEQk_-szNWsYb8-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="需求点：&lt;div&gt;四轮运维需要做找车单&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="185" x="3192.12" y="3366" as="geometry" />
         </mxCell>
-        <mxCell id="LurUpZjEQk_-szNWsYb8-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="后续规则集按照工单信息与运力要求进行人单第二层过滤匹配" vertex="1">
+        <mxCell id="LurUpZjEQk_-szNWsYb8-57" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LurUpZjEQk_-szNWsYb8-56" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="后续规则组按照工单信息与运力要求进行人单第二层过滤匹配" vertex="1">
           <mxGeometry height="60" width="120" x="2525.25" y="2853" as="geometry" />
         </mxCell>
         <mxCell id="LurUpZjEQk_-szNWsYb8-27" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" value="工单信息：&lt;div&gt;1. 工单类型（默认不可选）&lt;/div&gt;&lt;div&gt;2. 工单信息因子：&lt;/div&gt;&lt;div&gt;a) 点位标签（仅拉单展示，枚举项：三轮禁停、四轮禁停）&lt;/div&gt;&lt;div&gt;b) 收投距离&lt;/div&gt;&lt;div&gt;运力要求：&lt;/div&gt;&lt;div&gt;1.技能标签（默认展示）&lt;/div&gt;&lt;div&gt;2.作业类型&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="239" x="2204" y="2853" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-28" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LurUpZjEQk_-szNWsYb8-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-29" connectable="0" parent="LurUpZjEQk_-szNWsYb8-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="维护了映射关系&lt;br&gt;数据源：青桔工作台-作业类型管理-启用状态数据" vertex="1">
+          <mxGeometry relative="1" x="-0.0967" y="-1" as="geometry">
+            <mxPoint x="7" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;技能标签&lt;br&gt;（打到运维身上的）&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="3641" y="2244.75" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-31" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LurUpZjEQk_-szNWsYb8-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-32" connectable="0" parent="LurUpZjEQk_-szNWsYb8-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="后端规则定义映射" vertex="1">
+          <mxGeometry relative="1" x="-0.1467" y="2" as="geometry">
+            <mxPoint x="5" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontSize=12;" value="作业类型" vertex="1">
+          <mxGeometry height="60" width="120" x="4055" y="2244.75" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-37" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="LurUpZjEQk_-szNWsYb8-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-38" connectable="0" parent="LurUpZjEQk_-szNWsYb8-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="后端有可选映射，但业务可by城市配置&lt;br&gt;其实还是取的业务配置的映射结果" vertex="1">
+          <mxGeometry relative="1" x="-0.1802" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontSize=12;" value="人员属性（直营/联营）、工种" vertex="1">
+          <mxGeometry height="60" width="223" x="4003.5" y="2098.75" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontSize=12;" value="作业大类" vertex="1">
+          <mxGeometry height="60" width="120" x="4311" y="2244.75" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-44" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="LurUpZjEQk_-szNWsYb8-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-45" connectable="0" parent="LurUpZjEQk_-szNWsYb8-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="业务配置后形成映射" vertex="1">
+          <mxGeometry relative="1" x="-0.2182" y="-1" as="geometry">
+            <mxPoint x="9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontSize=12;" value="人员属性、人员职务、工种、业务场景" vertex="1">
+          <mxGeometry height="37" width="240" x="3095" y="2229.75" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;静态技能标签&lt;/font&gt;" vertex="1">
+          <mxGeometry height="45" width="120" x="3472" y="2225.75" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-46" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="LurUpZjEQk_-szNWsYb8-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-47" connectable="0" parent="LurUpZjEQk_-szNWsYb8-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="后端规则定义映射" vertex="1">
+          <mxGeometry relative="1" x="-0.2182" y="-1" as="geometry">
+            <mxPoint x="9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontSize=12;fontColor=#ffffff;strokeColor=#006EAF;" value="上线载具、排班签到的作业类型" vertex="1">
+          <mxGeometry height="37" width="240" x="3095" y="2288.25" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontSize=16;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;动态技能标签&lt;/font&gt;" vertex="1">
+          <mxGeometry height="45" width="120" x="3472" y="2284.25" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-51" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;spacing=1;" value="" vertex="1">
+          <mxGeometry height="66" width="48" x="3592" y="2241.75" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-52" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" value="工单信息和运力要求是业务配置的&lt;div&gt;&lt;br&gt;&lt;div&gt;配置完后的&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;规则组e.g. 工单特征A+工单特征B 匹配 运力要求1&lt;/span&gt;&lt;div&gt;工单类型为冷热跨区的工单 匹配 （作业类型为运输调度）且&lt;b&gt;技能标签&lt;/b&gt;为长距离运输的运维&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="430.25" x="2693.75" y="2853" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-55" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" value="为啥要分两步过滤？感觉技术那边直接在这里的“第二层”一次性就能过滤完" vertex="1">
+          <mxGeometry height="60" width="192" x="2696" y="2713" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="by运维颗粒度对工单去重，得到每个运维的可派发工单集" vertex="1">
+          <mxGeometry height="60" width="120" x="2525.25" y="2993" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-58" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;font&gt;315版：除了用运维上线+载具进行上下标外，新增用排班+作业类型进行上下标&lt;br&gt;运维上线载具、排班作业类型与动态技能标签的映射关系&lt;/font&gt;" vertex="1">
+          <mxGeometry height="51" width="427" x="3214" y="2355" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-59" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-60" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LurUpZjEQk_-szNWsYb8-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;囤扣取到车&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="3249" y="2733" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;到车调度&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="3449" y="2733" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-62" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LurUpZjEQk_-szNWsYb8-65" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-63" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-64" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LurUpZjEQk_-szNWsYb8-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;四轮载具&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="3249" y="2419" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;长距离运输&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="3449" y="2419" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-66" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LurUpZjEQk_-szNWsYb8-69" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-67" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LurUpZjEQk_-szNWsYb8-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;三轮载具&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="3249" y="2525" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;中距离运输&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="3449" y="2525" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-70" edge="1" parent="1" source="LurUpZjEQk_-szNWsYb8-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LurUpZjEQk_-szNWsYb8-72" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;无载具&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="3249" y="2634" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;短距离运输&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="3449" y="2634" as="geometry" />
+        </mxCell>
+        <mxCell id="LurUpZjEQk_-szNWsYb8-73" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.432;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3398.464" y="2316" as="sourcePoint" />
+            <mxPoint x="3398.464" y="2358" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
