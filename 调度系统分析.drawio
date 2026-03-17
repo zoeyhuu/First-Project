@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="Wss6ALdCkFaaH-XwHOxn">
-    <mxGraphModel dx="748" dy="843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="960" dy="1022" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -368,6 +368,9 @@
             <mxPoint x="3398.464" y="2316" as="sourcePoint" />
             <mxPoint x="3398.464" y="2358" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVCCk0fTo5EJEOej3LQP-1" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;verticalAlign=top;" value="本次改动：&lt;div&gt;工单侧：工单信息因子中，点位标签变更为所有工单均展示，枚举值新增：本城-三轮禁停、本城-四轮禁停、非本城-三轮禁停、非本城-四轮禁停&lt;/div&gt;&lt;div&gt;运力侧：运力要求因子中，新增载具信息，默认出现，枚举值&amp;amp;出现&amp;amp;选择逻辑：&lt;/div&gt;&lt;div&gt;若“技能标签”中仅有“短距离运输”，则，枚举值为：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;无载具、本城车牌、非本城车牌，可多选，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;若“技能标签”为其余所有情况，则，&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;枚举值为：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;本城车牌、非本城车牌，可多选&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="176.5" width="336" x="1838" y="2849.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
